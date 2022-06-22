@@ -1,0 +1,29 @@
+{
+  "name": "mobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cap:android": "npx cap add android",
+    "cap:sync:old": "ng build && npx cap sync",
+    "cap:copy": "npx cap copy",
+    "cap:sync": "npx cap sync",
+    "cap:open": "cross-env CAPACITOR_ANDROID_STUDIO_PATH=/home/cosmos/Downloads/android-studio-2020.3.1.24-linux/android-studio/bin/studio.sh  npx cap open android"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^3.5.1",
+    "@capacitor/core": "^3.5.1",
+    "@capacitor/splash-screen": "^1.2.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^3.5.1",
+    "cross-env": "^7.0.3",
+    "ts-node": "^10.8.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "4.7.3"
+  }
+}

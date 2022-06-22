@@ -1,0 +1,10 @@
+{
+	"appId": "com.example.app",
+	"appName": "frontend",
+	"webDir": "dist",
+	"bundledWebRuntime": false,
+	"plugins": {},
+	"server": {
+		"url": "https://f9ed-154-125-10-9.ngrok.io"
+	}
+}
